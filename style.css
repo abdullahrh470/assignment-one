@@ -26,10 +26,9 @@
 .semibold{font-weight: 700px;}
 .blu{ color: #4E47FF;}
 
-/* .Dark-1 1E1E1E
-.Dark-2 - 757575
-.Dark-3 -B3B3B3
-.Dark-4- 000000 50% */
+.dark-2{color: #757575}
+.dark-3{color: rgba(52, 24, 32, 50%);}
+.dark-4{color: rgba(0, 0, 0, 50%);}
 
 .btn{
   background-color: #4E47FF;
@@ -40,7 +39,7 @@
   border: none;
 }
 body{
-  width: 1440px;
+  max-width: 1440px;
 }
 /* Navigation bar */
 header {
@@ -61,6 +60,62 @@ nav{
 }
 
 .banner{
+  text-align: center;
+  padding: 100px 300px;
+
+}
+.banner-title{
+  font-size: 65px;
+}
+
+/* Main */
+/* action */
+.action{
+  /* display: flex; */
+  /* align-items: center; */
+  justify-content: space-between;
+  margin: 0px 150px;
+  padding: 50px 0px;
+  /* gap: 200px; */
+}
+.action-side{
+  display: flex;
   align-items: center;
-  
+  justify-content: space-between;
+  /* margin: 0px 150px; */
+  padding: 50px 0px;
+  /* gap: 200px; */
+  /* font-size: 100px; */
+}
+.action-title{
+  font-size:xx-large;
+}
+.action-pic{
+  height: 328px;
+  width: 403px;
+  border-radius: 48px;
+}
+
+/* user */
+
+.user-section{
+  background-color: #E5E7FF;
+  margin: 0px 150px;
+  padding: 50px 0px;
+  border-radius: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.user-section-title{
+  text-align: center;
+  font-size: 38px;
+}
+.user-des{
+  font-size: 50px;
+}
+.user-details{
+  text-align: center;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
 }
