@@ -26,6 +26,7 @@
 .semibold{font-weight: 700px;}
 .blu{ color: #4E47FF;}
 
+.dark-1{color: #252432;}
 .dark-2{color: #757575}
 .dark-3{color: rgba(52, 24, 32, 50%);}
 .dark-4{color: rgba(0, 0, 0, 50%);}
@@ -118,4 +119,30 @@ nav{
   display: flex;
   /* align-items: center; */
   justify-content: space-around;
+}
+
+/* Touch */
+
+.touch{
+  display: flex;
+ 
+  justify-content: space-between;
+  margin: 0px 150px;
+  padding: 50px 0px;
+}
+
+.touch-title{
+  font-size: 97px;
+
+}
+.touch-form{}
+
+section input[type="text"]{
+  height: 20px;
+  border-radius: 10px;
+  background-color: white;
+  width: 497px;
+  height: 70px;
+  margin: 0px;
+  
 }
