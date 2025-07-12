@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="style.css">
 
@@ -15,7 +16,8 @@
 <body style="background-color: #F5F8FF">
     <header>
         <nav>
-            
+            <h1 class="blu raleway logo">LOGO</h1>
+            <!-- <a href=""><button class="button-style">about</button></a> -->
             <a href=""><button class="btn">Sign Up</button></a>
         </nav>
         <!-- .raleway.dark-2>h1{Cool Dark UI Template for Webflow Agencies!}+a>button.btn{Stay Focused} -->
@@ -59,18 +61,92 @@
                 </div>
             </div>
         </section>
-        <section class="feedback"></section>
+<!-- what our say section -->
+    <section class="box-section raleway">
+    <h2>What our users say</h2>
+    <div class="box-container">
+      <!-- Card -->
+      <div class="box-card">
+        <div class="stars">
+            <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+        </div>
+        <h3>Loved by Designers</h3>
+        <p class="dark-4">This template instantly leveled up our presence.” – Studio Vertex</p>
+        <div class="reviewer">
+          <img src="Assets/avatar.png" alt=""> 
+          <div>
+            <span class="name dark-2">Reviewer name</span><br />
+            <span class="date dark-4">Date</span>
+          </div>
+        </div>
+      </div>
+
+      <!--  Cards 2 -->
+      <div class="box-card">
+        <div class="stars">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+        </div>
+        <h3>Loved by Designers</h3>
+        <p class="dark-4">This template instantly leveled up our presence.” – Studio Vertex</p>
+        <div class="reviewer">
+           <img src="Assets/avatar.png" alt=""> 
+          <div>
+            <span class="name dark-2">Reviewer name</span><br />
+            <span class="date dark-4">Date</span>
+          </div>
+        </div>
+      </div>
+       <!--  Cards 3 -->
+      <div class="box-card">
+        <div class="stars">
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+        </div>
+        <h3>Loved by Designers</h3>
+        <p class="dark-4">This template instantly leveled up our presence.” – Studio Vertex</p>
+        <div class="reviewer">
+          <img src="Assets/avatar.png" alt=""> 
+          <div>
+            <span class="name dark-2">Reviewer name</span><br />
+            <span class="date dark-4">Date</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+        
+
 
         <section class="touch">
             <div class="touch-title raleway"><h5>Let’s Get in <br> Touch</h5></div>
             <div class="inter touch-form">
                 <form action="">
-                    <p>Email</p>
-                    <input type="email" name="" id="" placeholder="example@email.com">
-                    <p>Name</p>
-                    <input type="text" name="" id="" placeholder="Full name">
-                    <p>Message</p>
-                    <textarea name="text" id="" placeholder="write your message...."></textarea>
+                    <div class="form-container">
+                        <p>Email</p>
+                        <input type="email" name="" id="" placeholder="example@email.com">
+                    </div>
+                    <div>
+                        <p>Name</p>
+                        <input type="text" name="" id="" placeholder="Full name">
+                    </div>
+                    <div>
+                        <p>Message</p>
+                        <textarea name="text" id="" placeholder="write your message...."></textarea>
+                    </div>
+                    <div>
+                        <input class="submit-btn" type="button" value="Get in Touch">
+                    </div>
                     
                 </form>
             </div>
@@ -78,86 +154,24 @@
 
     </main>
 
-    <footer class="">
-        <div class="footer-title raleway blu"><h1>LOGO</h1></div>
-        <div class="fooder-dscription dark-4">Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.</div>
-        <nav class="footer nav">
-            <a class="dark-4" href="">Home</a>
-            <a class="dark-4" href="">About</a>
-            <a class="dark-4" href="">How it works</a>
-            <a class="dark-4" href="">Services</a>
-        </nav>
+
+
+    <!-- footer -->
+    <footer class="raleway">
+        <div class="footer-logo inter blu">
+            <h1>LOGO</h1>
+        </div>
+        
+            <p class="footer-des">Ready to elevate your online presence? Contact us today to discuss <br> your project and discover how we can bring your vision to life.</p>
+       
+        <div class="footer-nav">
+            
+                <a class="dark-4" href="">Home</a>
+                <a class="dark-4" href="">About</a>
+                <a class="dark-4" href="">How it works</a>
+                <a class="dark-4" href="">Services</a>
+            
+        </div>
     </footer>
-
-   
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    
 </body>
 </html>

@@ -30,8 +30,11 @@
 .dark-2{color: #757575}
 .dark-3{color: rgba(52, 24, 32, 50%);}
 .dark-4{color: rgba(0, 0, 0, 50%);}
-.dark-5.
 
+
+/* .button-style{
+  background-color: #4E47FF;
+} */
 
 .btn{
   background-color: #4E47FF;
@@ -40,11 +43,16 @@
   padding: 12px 35px;
   border-radius: 10px;
   border: none;
+}
+.btn:hover {
+    background-color: yellow;
+    color: black;
+}
 
-}
-body{
-  max-width: 1440px;
-}
+/* body{
+  width: 1440px;
+  max-width: auto;
+} */
 /* Navigation bar */
 header {
   background-image: url(Assets/Hero-bg.png);
@@ -59,9 +67,12 @@ nav{
   margin: 0px 150px;
   padding: 50px 0px;
 }
-.logo{
 
+.logo{
+  -webkit-text-stroke: 2px;
+  letter-spacing: 3px;
 }
+
 
 .banner{
   text-align: center;
@@ -124,6 +135,13 @@ nav{
   justify-content: space-around;
 }
 
+/* feedback */
+.reviews{
+  display: flex;
+}
+
+
+
 /* Touch */
 
 .touch{
@@ -135,8 +153,12 @@ nav{
 .touch-title{
   font-size: 97px;
 }
+.form-container{
+margin-bottom: 30px;
+}
 .touch-form{}
-section input[type="text"], section input[type="email"], section textarea{
+section input[type="text"], section input[type="email"], section input [type="button"] {
+  
   height: 20px;
   border-radius: 10px;
   background-color: white;
@@ -144,24 +166,123 @@ section input[type="text"], section input[type="email"], section textarea{
   height: 70px;
   margin: 0px;
   padding: 0 20px;
-  /* border-color: #D6DDED; */
   border: 1px solid #D6DDED;
   box-sizing: border-box;
   
 }
+section textarea{
+  height: 135px;
+  width: 495px;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid #D6DDED;
+}
+
+.submit-btn{
+  background-color: #4E47FF;
+  font-weight: bold;
+  color: white;
+  padding: 12px 35px;
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+}
+.submit-btn:hover{
+   background-color: yellow;
+    color: black;
+}
+
+/* what our say section */
+
+.box-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.box-section h2 {
+  font-size: 32px;
+  color: #1e1e2f;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.box-card {
+  background-color: white;
+  width: 360px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.stars {
+  color: #f5b301;
+  font-size: 20px;
+}
+
+.box-card h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.box-card p {
+  font-size: 12px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.date {
+  font-size:12px;
+}
+
 /* footer */
 footer{
-  padding: 104px 454px;
+  padding: 100px;
   text-align: center;
 }
-.footer-nav
-{
-  display: flex;
-}
-footer nav a{
+
+  .footer-logo{
+    letter-spacing: 3px;
+ 
+  }
+  .footer-logo h1{
+    font-size: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font:900;
+    
+  }
+.footer-nav a{
+  padding: 40px;
   text-decoration: none;
-  tec
-}
-.footer-title{
-  font-size: 50px;
+  font-size: 16px;
+  font-weight: 500;
 }
